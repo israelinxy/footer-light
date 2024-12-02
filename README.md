@@ -1,6 +1,6 @@
 # Footer Light 🌐
 
-Este proyecto presenta un mismo footer con  dos estilos diferentes.
+Este proyecto presenta un mismo footer con  dos estilos diferentes realizado con Vite.
 
 ---
 
