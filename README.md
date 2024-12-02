@@ -1,4 +1,4 @@
-# Elearning Langin-Page 🌐
+# Footer Light 🌐
 
 Este proyecto presenta un mismo footer con  dos estilos diferentes.
 
