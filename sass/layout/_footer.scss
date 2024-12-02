@@ -1,0 +1,103 @@
+.footer01a{
+  .footer-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 72px;
+    padding-bottom: 56px;
+    border-bottom: 1px solid #04050552;
+    .enterprise{
+      &__name{
+        font-weight: 600;
+        font-size: 24px;
+        padding-top: 16px;
+        padding-bottom: 8px;     
+      }
+      &__description{
+        font-weight: 400;
+        font-size: 16px; 
+      }
+    }
+    .footer__info{
+      display: flex;
+      gap: 72px;
+      &--title{
+        font-weight: 600;
+        font-size: 16px;
+        padding-bottom: 16px;
+      }
+      ul{
+        @include ul-footer1(16px);
+      }
+    }
+  }
+  
+  .footer-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 40px;
+    .footer__rrss ul{
+      @include ul-footer2(32px);
+    }
+  }
+  margin-bottom: 100px;
+}
+
+.footer01b{
+  .footer-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 72px;
+    padding-bottom: 88px;
+    .enterprise{
+      width: 380px;
+      &__name{
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        padding-top: 16px;
+        padding-bottom: 8px;     
+      }
+      &__description{
+        font-weight: 400;
+        font-size: 16px; 
+      }
+    }
+    .footer__info{
+      width: 696px;
+      display: flex;
+      gap: 72px;
+      &--title{
+        font-weight: 500;
+        font-size: 14px;
+        padding-bottom: 16px;
+      }
+      ul{
+        @include ul-footer1(18px);
+        .button{
+          @include button;
+        }
+      }
+    }
+  }
+  
+  .footer-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 96px;
+    background-color: $green;
+    .rights-reserved{
+      font-weight: 500;
+      font-size: 14px;
+    }
+    .footer__politics ul{
+      @include ul-footer2(32px);
+      font-weight: 500;
+      font-size: 14px;
+    }
+  }
+}
