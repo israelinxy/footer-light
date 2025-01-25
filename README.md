@@ -5,7 +5,7 @@ Este proyecto presenta un mismo footer con  dos estilos diferentes realizado con
 ---
 
 <div align="center">
-  <img src="footer-light.png" alt="footer-light" width="55%"/>
+  <img src="footer-light.png" alt="footer-light" width="100%"/>
 </div>
 
 
